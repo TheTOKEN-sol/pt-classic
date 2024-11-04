@@ -23,9 +23,9 @@ export const prizePool: {
 }
 
 export const prizeVault: Token & { asset: Token & { isUsdEquivalent: boolean; displayDecimals?: number }; deployedAtBlock: bigint } = {
-  address: '0xAF2B22B7155da01230D72289DCEcB7C41a5a4bD8',
+  address: '0x8ef789A36462B44807D15BE260a88e38C0fEeaff',
   decimals: 6,
-  symbol: 'cPrzUSDC',
+  symbol: 'RoboUSD',
   asset: { address: '0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913', decimals: 6, symbol: 'USDC', isUsdEquivalent: true },
   deployedAtBlock: 19_862_159n
 }

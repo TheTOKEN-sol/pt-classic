@@ -42,7 +42,7 @@
     <span>{displayName}</span>
   </div>
 {:else}
-  <span class="connect-button">Connect Wallet</span>
+  <span class="connect-button">Sign In</span>
 {/if}
 
 <style>
