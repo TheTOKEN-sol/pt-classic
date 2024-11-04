@@ -31,24 +31,24 @@
   }
 
   a.active {
-    color: var(--pt-teal-dark);
+    color: #fff;
   }
 
   svg :global(path) {
-    fill: var(--pt-purple-200);
+    fill: #fff;
   }
 
   a.active > svg :global(path) {
-    fill: var(--pt-teal-light);
+    fill: var(--pt-teal-dark);
   }
 
   @media (min-width: 48rem) {
     a.active {
-      color: var(--pt-teal-light);
+      color: #fff;
     }
 
     a:not(.active):hover > span {
-      color: var(--pt-teal-dark);
+      color: #fff;
     }
   }
 </style>

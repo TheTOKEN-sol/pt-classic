@@ -26,7 +26,7 @@
       </div>
     {/each}
     <p class="description">
-      These are the best probabilistic estimates we can provide. Each tier's prize size grows over time until awarded, and their frequency
+      These are probabilistic estimates. Each tier's prize size grows between wins, and frequency
       is random.
     </p>
   {:else}

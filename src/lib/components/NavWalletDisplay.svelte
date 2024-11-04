@@ -81,8 +81,8 @@
     padding: 0.5rem 0.75rem;
     font-size: 0.75rem;
     font-weight: 500;
-    color: var(--pt-purple-100);
-    background-color: var(--pt-transparent);
+    color: #fff;
+    background-color: #434343;
     border: 1px solid var(--pt-transparent);
     border-radius: 0.5rem;
     line-height: 150%;

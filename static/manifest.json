@@ -7,9 +7,9 @@
     { "src": "favicon.ico", "sizes": "48x48" },
     { "src": "pooltogether-square.svg", "sizes": "any" }
   ],
-  "name": "PoolTogether Classic",
+  "name": "RoboUSD",
   "scope": "/",
-  "short_name": "PT Classic",
+  "short_name": "RoboUSD",
   "start_url": "/",
-  "theme_color": "#6538c1"
+  "theme_color": "#171A1E"
 }

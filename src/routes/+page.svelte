@@ -18,7 +18,7 @@
   <span class="title">
     {#if totalPrizeValueAvailable !== 0}
       <span in:fade>
-        Save & win up to <strong>
+        Hold RoboUSD to Win up to <strong>
           {#if prizeVault.asset.isUsdEquivalent}
             ${formattedTotalPrizeValueAvailable}
           {:else}
@@ -32,11 +32,14 @@
   </span>
 </div>
 
-<span class="pt-info">Participate in daily PoolTogether prize draws</span>
+<span class="pt-info">RoboUSD participates in daily PoolTogether prize drawings.</span>
 
 <DepositCard />
 
-<span class="join-us">Join the thousands of people saving to win</span>
+<span class="join-us">
+  Winnings Autocompound to RoboUSD<br>
+  Cash Out for a Tesla GiftCard
+</span>
 
 <style>
   div.banner {
@@ -48,6 +51,7 @@
     padding: 1rem;
     border-radius: 1rem;
     overflow: hidden;
+
     isolation: isolate;
   }
 
@@ -65,8 +69,7 @@
     position: absolute;
     inset: 0;
     padding-top: 42vw;
-    background-image: url('/abstract-pooly.jpg');
-    background-repeat: no-repeat;
+
     background-position-y: center;
     background-size: cover;
     z-index: -10;
@@ -76,7 +79,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background-color: rgba(69, 35, 139, 0.8);
+    background-color: #383434;
   }
 
   span.pt-info {
@@ -90,7 +93,7 @@
     width: min(calc(100% - 2rem), 32rem);
     text-align: center;
     margin-top: calc(1em - 1rem);
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--pt-purple-200);
   }
