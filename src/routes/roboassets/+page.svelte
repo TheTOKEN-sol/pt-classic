@@ -4,7 +4,7 @@
 
 <h2>
   <span class="red-text">RoboMeme</span> <br>
-  <span class="white-text">launches at $2million TVL</span> 
+  <span class="white-text">Launches at $2million TVL</span> 
 </h2>
 <h1>RoboAssets Coming Soon</h1>
 
