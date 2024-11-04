@@ -32,7 +32,12 @@
   </span>
 </div>
 
-<span class="pt-info">RoboUSD participates in daily PoolTogether prize drawings.</span>
+<span class="pt-info">
+  RoboUSD participates in daily 
+  <a href="https://pooltogether.com/" target="_blank" class="pool-together-link">
+    Pool Together
+  </a> prize drawings.
+</span>
 
 <DepositCard />
 
@@ -106,5 +111,14 @@
     div.banner > span.img-wrapper {
       padding-top: 16rem;
     }
+  }
+
+  .pool-together-link {
+    color:#9b6aff;
+    text-decoration: none;
+  }
+  
+  .pool-together-link:hover {
+    text-decoration: underline;
   }
 </style>

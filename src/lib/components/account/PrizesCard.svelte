@@ -138,7 +138,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background-color: rgba(126, 70, 242, 0.6);
+    background-color: #E82127;
   }
 
   div.content-wrapper {
