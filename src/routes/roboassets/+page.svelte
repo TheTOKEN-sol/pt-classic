@@ -3,11 +3,10 @@
 </script>
 
 <h2>
-  <span class="red-text">RoboMeme</span> 
-  <span class="white-text">and</span> 
-  <span class="red-text">RoboAssets</span>
+  <span class="red-text">RoboMeme</span> <br>
+  <span class="white-text">launches at $2million TVL</span> 
 </h2>
-<h1>Coming Soon</h1>
+<h1>RoboAssets Coming Soon</h1>
 
 <style>
   h1, h2 {
@@ -23,10 +22,10 @@
 
   /* Styling for specific words in h2 */
   .red-text {
-    color: #E82127; /* Red color for "RoboMeme" and "RoboAssets" */
+    color: #E82127; 
   }
   
   .white-text {
-    color: #ffffff; /* White color for "and" */
+    color: #ffffff; 
   }
 </style>
